@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: e2c24491f7f28324d867abc11b12b8b0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CatsLarge1_0
+    21300002: CatsLarge1_1
+    21300004: CatsLarge1_2
+    21300006: CatsLarge1_3
+    21300008: CatsLarge1_4
+    21300010: CatsLarge1_5
+    21300012: CatsLarge1_6
+    21300014: CatsLarge1_7
+    21300016: CatsLarge1_8
+    21300018: CatsLarge1_9
+    21300020: CatsLarge1_10
+    21300022: CatsLarge1_11
+    21300024: CatsLarge1_12
+    21300026: CatsLarge1_13
+    21300028: CatsLarge1_14
+    21300030: CatsLarge1_15
+    21300032: CatsLarge1_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CatsLarge1_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 311
+        width: 81
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 311
+        width: 81
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 311
+        width: 81
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 311
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 311
+        width: 85
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 243
+        width: 77
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 243
+        width: 77
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 243
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_8
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 243
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 243
+        width: 73
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 243
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 175
+        width: 81
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 175
+        width: 81
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_13
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 171
+        width: 85
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_14
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 171
+        width: 85
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_15
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 171
+        width: 85
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CatsLarge1_16
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 171
+        width: 85
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
