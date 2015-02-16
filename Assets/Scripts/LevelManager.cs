@@ -21,6 +21,7 @@ public class LevelManager : MonoBehaviour {
 	public Count waterCount = new Count (5, 9);
 	public Count itemCount = new Count (1, 5);
 	public GameObject exit;
+	public GameObject player;
 	public GameObject[] grassTiles;
 	public GameObject[] waterTiles;
 	public GameObject[] enemyTiles;
@@ -83,6 +84,7 @@ public class LevelManager : MonoBehaviour {
 		int enemyCount = (int)Mathf.Log (level, 2f);
 		LayoutObjectAtRandom (enemyTiles, enemyCount, enemyCount);
 		Instantiate (exit, new Vector3 (columns - 1, rows - 1, 0f), Quaternion.identity);
+		Instantiate (player, new Vector3 (0, 0, 0f), Quaternion.identity);
 	}
 
 }
