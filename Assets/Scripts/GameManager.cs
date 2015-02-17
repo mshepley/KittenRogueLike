@@ -1,16 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
+	public float levelStartDelay = 2f;
 	public float turnDelay = .1f;
 	public static GameManager instance = null;
 	public LevelManager levelScript;
 	public int playerEnergyPoints = 100;
 	[HideInInspector] public bool playersTurn = true;
 
-	private int level = 12;
+	private int level = 3;
 	private List<Enemy> enemies;
 	private bool enemiesMoving;
 
