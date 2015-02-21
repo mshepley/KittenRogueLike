@@ -12,9 +12,13 @@ public class GameManager : MonoBehaviour {
 	public int playerEnergyPoints = 100;
 	[HideInInspector] public bool playersTurn = true;
 
-	private int level = 3;
+	private Text levelText;
+	private GameObject levelImage;
+	private int level = 1;
+	private int difficulty = 2;
 	private List<Enemy> enemies;
 	private bool enemiesMoving;
+	private bool doingSetup;
 
 	// Use this for initialization
 	void Awake () {
@@ -30,23 +34,46 @@ public class GameManager : MonoBehaviour {
 		InitGame ();
 	}
 
+	private void OnLevelWasLoaded(int index)
+	{
+		level++;
+
+		InitGame ();
+	}
+
 	void InitGame()
 	{
+		doingSetup = true;
+
+		levelImage = GameObject.Find ("LevelImage");
+		levelText = GameObject.Find ("LevelText").GetComponent<Text> ();
+		levelText.text = "Yard " + level;
+		levelImage.SetActive (true);
+		Invoke("HideLevelImage", levelStartDelay);
+
 		enemies.Clear ();
 		levelScript.columns = 8;
 		levelScript.rows = 8;
-		levelScript.SetupScene (level);
+		levelScript.SetupScene (level + difficulty);
 
+	}
+
+	private void HideLevelImage ()
+	{
+		levelImage.SetActive (false);
+		doingSetup = false;
 	}
 
 	public void GameOver()
 	{
+		levelText.text = "You made it through " + level + " yards before having to take a nap!";
+		levelImage.SetActive (true);
 		enabled = true;
 	}
 
 	// Update is called once per frame
 	void Update () {
-		if (playersTurn || enemiesMoving)
+		if (playersTurn || enemiesMoving || doingSetup)
 			return;
 
 		StartCoroutine (MoveEnemies ());
